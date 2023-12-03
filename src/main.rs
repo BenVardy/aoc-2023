@@ -1,11 +1,12 @@
 use std::fs;
 
 // mod day01;
-mod day02;
+// mod day02;
+mod day03;
 
 fn main() {
-    let text = fs::read_to_string("data/day-02.txt").expect("Missing input file.");
+    let text = fs::read_to_string("data/day-03.txt").expect("Missing input file.");
 
-    day02::part1(text.as_str());
-    day02::part2(text.as_str());
+    day03::part1(text.as_str());
+    day03::part2(text.as_str());
 }
